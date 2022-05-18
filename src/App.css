@@ -1,0 +1,139 @@
+body {
+    font-style: normal;
+}
+.activeClass >li {
+    background: rgba(41, 96, 199, 0.8);
+}
+.landing_page {
+    position: absolute;
+    padding-left: 80px;
+    top: 0px;
+    width: 100%;
+}
+.top-navbar {
+    padding: 0px;
+    height: 55px;
+    background: #111D2A;
+    color: white;
+}
+.navbar-left{
+    float: left;
+}
+.navbar-right{
+    top: 0px;
+    float:right;
+}
+.navbar-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+.navbar-right-text {
+    width: 137px;
+    padding:8px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+}
+.navbar-right-img{
+    vertical-align: top;
+}
+.App {
+    background: rgba(240, 244, 247, 0.5);
+}
+.dash-head {
+    background: #E3ECFB;
+    border-radius: 20px;
+    height: 300px;
+    padding: 20px;
+    font-family: 'Montserrat';
+}
+.main-body {
+    margin: 30px;
+}
+.dash-body {
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+}
+th {
+    font-size: 36px;
+}
+td {
+    font-size: 24px;
+}
+tr {
+    height: 70px;
+}
+.dash-table{}
+table {
+    text-align: center;
+    border: 1px solid black;
+}
+.scrollable {
+    height: 350px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+thead {
+    position: sticky;
+    background: #E3ECFB;
+    z-index: 2;
+    top: 0;
+    border: 1px solid black;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+/* width */
+::-webkit-scrollbar {
+width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+.overview{
+    font-size: 36px;
+    line-height: 44px;
+}
+.overview-body {
+    text-align: center;
+}
+.overview-left{
+    float: left;
+    width: 40%;
+    padding: 0px 0px;
+}
+.overview-right{
+    padding: 0px 0px;
+}
+.overview-mark{
+    color: green;
+    font-size: 64px;
+}
+.overview-description{
+    font-size: 24px;
+}
